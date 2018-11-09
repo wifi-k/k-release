@@ -1,0 +1,16 @@
+.idea/
+*.iml
+
+*.class
+*.jar
+*.jmod
+*.war
+
+target/
+
+conf/
+log/
+lib/
+plugin/
+
+filter.properties
