@@ -3,11 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>cn.treebear</groupId>
     <artifactId>tbcloud-release</artifactId>
     <version>2018.11.30</version>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>tbcloud-release-user</module>
+
+    </modules>
 
     <properties>
         <logback.version>1.2.3</logback.version>
@@ -15,7 +19,6 @@
         <jframe.version>2.0.0-SNAPSHOT</jframe.version>
         <jdk.version>11</jdk.version>
         <tbcloud.version>2018.11.30</tbcloud.version>
-
     </properties>
 
     <build>

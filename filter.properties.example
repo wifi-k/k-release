@@ -1,0 +1,30 @@
+# mysql
+mysql.tbcloud.url=jdbc:mysql://localhost:3306/tbcloud?useUnicode=true&amp;characterEncoding=UTF-8
+mysql.tbcloud.username=root
+mysql.tbcloud.password=
+# http
+api.http.port=8018
+api.http.root=/
+# jvm
+vm.size=256M
+# redis user
+redis.user.ip=127.0.0.1
+redis.user.passwd=
+redis.user.database=0
+# redis node
+redis.node.ip=127.0.0.1
+redis.node.passwd=
+redis.node.database=0
+# redis conn
+redis.conn.maxTotal=100
+redis.conn.maxIdle=10
+redis.conn.minIdle=1
+redis.conn.maxWaitMillis=3000
+# qiniu
+qiniu.domain=http://phuv131f5.bkt.clouddn.com
+qiniu.bucket=tbc-imgcode-test
+#
+debug.enabled=true
+env.name=dev
+
+

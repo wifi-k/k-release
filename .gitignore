@@ -14,3 +14,5 @@ lib/
 plugin/
 
 filter.properties
+
+tmp/

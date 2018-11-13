@@ -58,10 +58,10 @@
         <appender-ref ref="TBCLOUD_USER_DAO"/>
     </logger>
 
-    <appender name="TBCLOUD_COMMON" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="TBCLOUD_NODE_DAO" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${LOG_HOME}/common-%d{yyyyMMdd}.log</fileNamePattern>
+            <fileNamePattern>${LOG_HOME}/node-dao-%d{yyyyMMdd}.log</fileNamePattern>
             <maxHistory>10</maxHistory>
         </rollingPolicy>
         <encoder>
@@ -69,8 +69,8 @@
         </encoder>
     </appender>
 
-    <logger name="tbcloud.common" additivity="false">
-        <appender-ref ref="TBCLOUD_COMMON"/>
+    <logger name="tbcloud.node.dao" additivity="false">
+        <appender-ref ref="TBCLOUD_NODE_DAO"/>
     </logger>
 
 
