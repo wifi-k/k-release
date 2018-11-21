@@ -8,8 +8,10 @@
 - jdk11 or higher
 
 ## 公共库说明 
+
 ### jframe
 - 参考[github说明](https://github.com/dzh/jframe)
+
 ### tbcloud-lib
 - tbcloud-lib-api 接口相关工具类和常量
 - tbcloud-user-model 用户的库表基础类和生成的mapper等
@@ -31,6 +33,7 @@
     
 
 ## 用户平台
+
 ### 构建和启动
 - 构建用户平台代码
     - cd tbcloud-release-user
@@ -38,6 +41,7 @@
 - 启动mysql redis
 - bin/jframe.sh start|stop
 - 查看log/jf-xxxx日志 or 浏览器测试 http://localhost:8018/user/test/ping
+
 ### 依赖插件
 - tbcloud-user-api  http接口
 - tbcloud-user-dao  用户库表的dao服务
