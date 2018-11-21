@@ -58,6 +58,21 @@
         <appender-ref ref="TBCLOUD_USER_DAO"/>
     </logger>
 
+    <appender name="TBCLOUD_USER_JOB" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/user-job-%d{yyyyMMdd}.log</fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="tbcloud.user.job" additivity="false">
+        <appender-ref ref="TBCLOUD_USER_JOB"/>
+    </logger>
+
     <appender name="TBCLOUD_NODE_DAO" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">

@@ -133,6 +133,12 @@
                 <version>${tbcloud.version}</version>
                 <classifier>plugin</classifier>
             </dependency>
+            <dependency>
+                <groupId>cn.treebear</groupId>
+                <artifactId>tbcloud-user-job</artifactId>
+                <version>${tbcloud.version}</version>
+                <classifier>plugin</classifier>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
