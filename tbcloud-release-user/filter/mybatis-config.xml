@@ -78,5 +78,6 @@
 
         <mapper resource="tbcloud/node/model/mapper/NodeInfoMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeRtMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/NodeInfoRtMapper.xml"/>
     </mappers>
 </configuration>
