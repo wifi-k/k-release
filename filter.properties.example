@@ -26,5 +26,9 @@ qiniu.bucket=tbc-imgcode-test
 #
 debug.enabled=true
 env.name=dev
-
+# job
+job.threadpool.size=4
+# aliyun sms
+alisms.tbc.accessKeyId=LTAIKtt8qoPKftzy
+alisms.tbc.accessKeySecret=WHvqGLV6k3mGPRWkHsZMFMvgYlpkSI
 
