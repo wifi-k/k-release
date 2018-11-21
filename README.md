@@ -7,7 +7,10 @@
 - redis 4.0
 - jdk11 or higher
 
-## 公共库说明 tbcloud-lib
+## 公共库说明 
+### jframe
+- 参考[github说明](https://github.com/dzh/jframe)
+### tbcloud-lib
 - tbcloud-lib-api 接口相关工具类和常量
 - tbcloud-user-model 用户的库表基础类和生成的mapper等
 - tbcloud-node-model 节点的库表基础类和生成的mapper等
