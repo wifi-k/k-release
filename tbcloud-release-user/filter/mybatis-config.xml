@@ -78,6 +78,7 @@
         <mapper resource="tbcloud/user/model/mapper/UserShareSumMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/UserShareDayMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/UserShareRecordMapper.xml"/>
+        <mapper resource="tbcloud/user/model/mapper/UserOnlineMapper.xml"/>
 
         <mapper resource="tbcloud/node/model/mapper/NodeInfoMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeRtMapper.xml"/>
