@@ -10,7 +10,7 @@
 
     <modules>
         <module>tbcloud-release-user</module>
-
+        <module>tbcloud-release-node</module>
     </modules>
 
     <properties>
@@ -139,6 +139,27 @@
                 <version>${tbcloud.version}</version>
                 <classifier>plugin</classifier>
             </dependency>
+
+            <dependency>
+                <groupId>cn.treebear</groupId>
+                <artifactId>tbcloud-share-httpproxy</artifactId>
+                <version>${tbcloud.version}</version>
+                <classifier>plugin</classifier>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.treebear</groupId>
+                <artifactId>tbcloud-node-api</artifactId>
+                <version>${tbcloud.version}</version>
+                <classifier>plugin</classifier>
+            </dependency>
+            <dependency>
+                <groupId>cn.treebear</groupId>
+                <artifactId>tbcloud-node-httpproxy</artifactId>
+                <version>${tbcloud.version}</version>
+                <classifier>plugin</classifier>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

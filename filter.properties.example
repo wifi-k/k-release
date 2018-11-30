@@ -31,4 +31,9 @@ job.threadpool.size=4
 # aliyun sms
 alisms.tbc.accessKeyId=LTAIKtt8qoPKftzy
 alisms.tbc.accessKeySecret=WHvqGLV6k3mGPRWkHsZMFMvgYlpkSI
+# node api server
+#node.api.ip=0.0.0.0
+node.api.port=9019
+#node.api.auth.enabled=true
+node.api.ins.host=127.0.0.1:9019
 
