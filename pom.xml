@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>tbcloud-release-user</module>
-        <module>tbcloud-release-node</module>
+        <module>user-api</module>
+        <module>node-api</module>
     </modules>
 
     <properties>

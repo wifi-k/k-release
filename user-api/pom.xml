@@ -10,7 +10,7 @@
         <version>2018.11.30</version>
     </parent>
 
-    <artifactId>tbcloud-release-user</artifactId>
+    <artifactId>user-api</artifactId>
     <packaging>pom</packaging>
 
     <build>

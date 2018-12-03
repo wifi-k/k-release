@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tbcloud-release-node</artifactId>
+    <artifactId>node-api</artifactId>
     <packaging>pom</packaging>
 
     <build>
