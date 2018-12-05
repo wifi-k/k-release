@@ -2,16 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
     <parent>
-        <groupId>cn.treebear</groupId>
         <artifactId>tbcloud-release</artifactId>
+        <groupId>cn.treebear</groupId>
         <version>2018.11.30</version>
     </parent>
-
-    <artifactId>user-api</artifactId>
+    <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
+
+    <artifactId>share-httpproxy</artifactId>
 
     <build>
         <filters>
@@ -86,16 +85,7 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>cn.treebear</groupId>
-            <artifactId>tbcloud-user-api</artifactId>
-            <classifier>plugin</classifier>
-        </dependency>
-        <dependency>
-            <groupId>cn.treebear</groupId>
-            <artifactId>tbcloud-user-job</artifactId>
-            <classifier>plugin</classifier>
-        </dependency>
+
     </dependencies>
 
 </project>
