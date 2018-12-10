@@ -21,7 +21,7 @@ redis.conn.maxIdle=10
 redis.conn.minIdle=1
 redis.conn.maxWaitMillis=3000
 # qiniu
-qiniu.domain=http://phuv131f5.bkt.clouddn.com
+qiniu.domain=http://test.qiniu.famwifi.com
 qiniu.bucket=tbc-imgcode-test
 #
 debug.enabled=true
@@ -29,12 +29,20 @@ env.name=dev
 # job
 job.threadpool.size=4
 # aliyun sms
-alisms.tbc.accessKeyId=LTAIKtt8qoPKftzy
-alisms.tbc.accessKeySecret=WHvqGLV6k3mGPRWkHsZMFMvgYlpkSI
+alisms.tbc.accessKeyId=
+alisms.tbc.accessKeySecret=
+# aliyun dm
+alidm.tbc.accessKeyId=
+alidm.tbc.accessKeySecret=
 # node api server
 #node.api.ip=0.0.0.0
 node.api.port=9019
 #node.api.auth.enabled=true
 node.api.ins.host=127.0.0.1:9019
 node.api.token.expired=48
+# share httpproxy
+share.httpproxy.port=8108
+# email
+user.email.modify.from=admin@mail.famwifi.com
+user.email.modify.link=http://test.user.famwifi.com/#/email?
 
