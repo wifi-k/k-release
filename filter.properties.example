@@ -45,4 +45,6 @@ share.httpproxy.port=8108
 # email
 user.email.modify.from=admin@mail.famwifi.com
 user.email.modify.link=http://test.user.famwifi.com/#/email?
+# zk
+zk.timer.connectString=127.0.0.1:2181
 

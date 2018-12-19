@@ -72,8 +72,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="tbcloud/httpproxy/model/mapper/HttpProxyRecordMapper.xml"/>
-
+        <mapper resource="tbcloud/user/model/mapper/UserInfoMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/UserDeveloperMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/UserImgCodeMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/UserShareSumMapper.xml"/>
@@ -82,5 +81,16 @@
         <mapper resource="tbcloud/user/model/mapper/UserOnlineMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/AppInfoMapper.xml"/>
 
+        <mapper resource="tbcloud/node/model/mapper/NodeInfoMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/NodeRtMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/ext/NodeInfoRtMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/NodeInsMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/NodeAppMapper.xml"/>
+
+        <mapper resource="tbcloud/common/model/mapper/IpInfoMapper.xml"/>
+        <mapper resource="tbcloud/common/model/mapper/IspMapper.xml"/>
+        <mapper resource="tbcloud/common/model/mapper/ProvinceMapper.xml"/>
+        <mapper resource="tbcloud/common/model/mapper/CityMapper.xml"/>
+        <mapper resource="tbcloud/common/model/mapper/AreaMapper.xml"/>
     </mappers>
 </configuration>

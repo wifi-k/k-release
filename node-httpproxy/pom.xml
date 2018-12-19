@@ -85,7 +85,11 @@
     </build>
 
     <dependencies>
-
+        <dependency>
+            <groupId>cn.treebear</groupId>
+            <artifactId>tbcloud-node-httpproxy</artifactId>
+            <classifier>plugin</classifier>
+        </dependency>
     </dependencies>
 
 </project>

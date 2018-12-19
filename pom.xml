@@ -13,6 +13,7 @@
         <module>node-api</module>
         <module>share-httpproxy</module>
         <module>node-httpproxy</module>
+        <module>job-timer</module>
     </modules>
 
     <properties>
@@ -103,7 +104,6 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
@@ -172,6 +172,13 @@
             <dependency>
                 <groupId>cn.treebear</groupId>
                 <artifactId>tbcloud-share-httpproxy</artifactId>
+                <version>${tbcloud.version}</version>
+                <classifier>plugin</classifier>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.treebear</groupId>
+                <artifactId>tbcloud-timer</artifactId>
                 <version>${tbcloud.version}</version>
                 <classifier>plugin</classifier>
             </dependency>

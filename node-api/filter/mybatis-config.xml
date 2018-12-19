@@ -74,7 +74,8 @@
     <mappers>
         <mapper resource="tbcloud/node/model/mapper/NodeInfoMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeRtMapper.xml"/>
-        <mapper resource="tbcloud/node/model/mapper/NodeInfoRtMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/ext/NodeInfoRtMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeInsMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/NodeAppMapper.xml"/>
     </mappers>
 </configuration>
