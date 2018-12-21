@@ -31,8 +31,8 @@
 #-XX:CompileThreshold=10000
 #-XX:+CICompilerCount=
 
--Xms${vm.size}
--Xmx${vm.size}
+-Xms${nodeHttpproxy.vm.size}
+-Xmx${nodeHttpproxy.vm.size}
 #-Xmn512M
 
 #-XX:PermSize=32M

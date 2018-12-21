@@ -7,6 +7,11 @@ api.http.port=8018
 api.http.root=/
 # jvm
 vm.size=256M
+jobTimer.vm.size=256M
+nodeApi.vm.size=256M
+nodeHttpproxy.vm.size=256M
+shareHttpproxy.vm.size=256M
+userApi.vm.size=256M
 # redis user
 redis.user.ip=127.0.0.1
 redis.user.passwd=
@@ -47,4 +52,8 @@ user.email.modify.from=admin@mail.famwifi.com
 user.email.modify.link=http://test.user.famwifi.com/#/email?
 # zk
 zk.timer.connectString=127.0.0.1:2181
+# httpproxy
+node.httpproxy.domain=127.0.0.1:9109
+node.httpproxy.http.port=8109
+node.httpproxy.tcp.port=9109
 
