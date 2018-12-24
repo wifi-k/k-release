@@ -11,7 +11,7 @@
     <modules>
         <module>user-api</module>
         <module>node-api</module>
-        <module>share-httpproxy</module>
+        <module>open-httpproxy</module>
         <module>node-httpproxy</module>
         <module>job-timer</module>
     </modules>
@@ -182,7 +182,7 @@
 
             <dependency>
                 <groupId>cn.treebear</groupId>
-                <artifactId>tbcloud-share-httpproxy</artifactId>
+                <artifactId>tbcloud-open-httpproxy</artifactId>
                 <version>${tbcloud.version}</version>
                 <classifier>plugin</classifier>
             </dependency>

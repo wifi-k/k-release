@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
-    <artifactId>share-httpproxy</artifactId>
+    <artifactId>open-httpproxy</artifactId>
 
     <build>
         <filters>
@@ -87,7 +87,7 @@
     <dependencies>
         <dependency>
             <groupId>cn.treebear</groupId>
-            <artifactId>tbcloud-share-httpproxy</artifactId>
+            <artifactId>tbcloud-open-httpproxy</artifactId>
             <classifier>plugin</classifier>
         </dependency>
     </dependencies>
