@@ -26,8 +26,12 @@ redis.conn.maxIdle=10
 redis.conn.minIdle=1
 redis.conn.maxWaitMillis=3000
 # qiniu
-qiniu.domain=http://test.qiniu.famwifi.com
-qiniu.bucket=tbc-imgcode-test
+qiniu.ak=
+qiniu.sk=
+qiniu.imgcode.bucket=tbc-imgcode-test
+qiniu.imgcode.domain=test.qiniu.famwifi.com
+qiniu.developer.bucket=tbc-developer-test
+qiniu.developer.domain=test.developer.qiniu.famwifi.com
 #
 debug.enabled=true
 env.name=dev
