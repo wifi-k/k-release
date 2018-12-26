@@ -80,6 +80,7 @@
         <mapper resource="tbcloud/user/model/mapper/UserShareRecordMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/UserOnlineMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/AppInfoMapper.xml"/>
+        <mapper resource="tbcloud/user/model/mapper/OpenOnlineMapper.xml"/>
 
         <mapper resource="tbcloud/node/model/mapper/NodeInfoMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeRtMapper.xml"/>
