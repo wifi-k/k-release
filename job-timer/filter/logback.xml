@@ -107,7 +107,7 @@
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
         </encoder>
     </appender>
-    <logger name="tbcloud.user.job" additivity="false">
+    <logger name="tbcloud.node.job" additivity="false">
         <appender-ref ref="TBCLOUD_NODE_JOB"/>
     </logger>
 
