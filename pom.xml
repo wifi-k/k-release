@@ -151,9 +151,15 @@
             </dependency>
             <dependency>
                 <groupId>io.github.dzh</groupId>
+                <artifactId>jframe-ext</artifactId>
+                <version>${jframe.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.dzh</groupId>
                 <artifactId>jframe-launcher</artifactId>
                 <version>${jframe.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>io.github.dzh</groupId>
                 <artifactId>jframe-mybatis</artifactId>

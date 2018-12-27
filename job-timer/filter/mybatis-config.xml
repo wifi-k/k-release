@@ -92,5 +92,8 @@
         <mapper resource="tbcloud/common/model/mapper/ProvinceMapper.xml"/>
         <mapper resource="tbcloud/common/model/mapper/CityMapper.xml"/>
         <mapper resource="tbcloud/common/model/mapper/AreaMapper.xml"/>
+
+        <mapper resource="tbcloud/httpproxy/model/mapper/HttpProxyOnlineMapper.xml"/>
+        <mapper resource="tbcloud/httpproxy/model/mapper/HttpProxyRecordMapper.xml"/>
     </mappers>
 </configuration>

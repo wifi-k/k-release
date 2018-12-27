@@ -6,6 +6,14 @@
 - mysql 5.7
 - redis 4.0
 - jdk11 or higher
+- kafka 2.1.0
+```shell
+bin/kafka-topics.sh --zookeeper localhost:2181 --create --topic tbcUser --partitions 1 \
+    --replication-factor 1 --config max.message.bytes=10240 --config flush.messages=1
+
+bin/kafka-topics.sh --zookeeper localhost:2181 --create --topic tbcNode --partitions 1 \
+    --replication-factor 1 --config max.message.bytes=10240 --config flush.messages=1
+```
 
 ## 公共库说明 
 
@@ -32,7 +40,7 @@
     - mvn clean install
     
 
-## 用户平台
+## 用户平台Http
 
 ### 构建和启动
 - 构建用户平台代码
@@ -46,5 +54,14 @@
 - tbcloud-user-api  http接口
 - tbcloud-user-dao  用户库表的dao服务
 - tbcloud-node-dao  节点库表的dao服务
+
+
+## 节点UDP
+
+## 异步任务和定时器
+
+## 开放平台Http代理
+
+## 节点Http代理
 
     
