@@ -10,7 +10,7 @@ vm.size=256M
 jobTimer.vm.size=256M
 nodeApi.vm.size=256M
 nodeHttpproxy.vm.size=256M
-shareHttpproxy.vm.size=256M
+openHttpproxy.vm.size=256M
 userApi.vm.size=256M
 # redis user
 redis.user.ip=127.0.0.1
@@ -49,8 +49,8 @@ node.api.port=9019
 #node.api.auth.enabled=true
 node.api.ins.host=127.0.0.1:9019
 node.api.token.expired=48
-# share httpproxy
-share.httpproxy.port=8108
+# open httpproxy
+open.httpproxy.port=8108
 # email
 user.email.modify.from=admin@mail.famwifi.com
 user.email.modify.link=http://test.user.famwifi.com/#/email?

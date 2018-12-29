@@ -1,6 +1,6 @@
-user-httpproxy
+open-httpproxy
 ===========================
-用户的http代理接口
+开放平台的http代理服务
 
 
 

@@ -73,6 +73,7 @@
 
     <mappers>
         <mapper resource="tbcloud/httpproxy/model/mapper/HttpProxyRecordMapper.xml"/>
+        <mapper resource="tbcloud/httpproxy/model/mapper/HttpProxyOnlineMapper.xml"/>
 
         <mapper resource="tbcloud/user/model/mapper/UserDeveloperMapper.xml"/>
         <mapper resource="tbcloud/user/model/mapper/UserImgCodeMapper.xml"/>
