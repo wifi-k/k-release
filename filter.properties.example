@@ -40,6 +40,7 @@ job.threadpool.size=4
 # aliyun sms
 alisms.tbc.accessKeyId=
 alisms.tbc.accessKeySecret=
+alisms.tbc.domain=
 # aliyun dm
 alidm.tbc.accessKeyId=
 alidm.tbc.accessKeySecret=
