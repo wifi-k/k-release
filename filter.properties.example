@@ -20,6 +20,10 @@ redis.user.database=0
 redis.node.ip=127.0.0.1
 redis.node.passwd=
 redis.node.database=0
+# redis common
+redis.common.ip=127.0.0.1
+redis.common.passwd=
+redis.common.database=0
 # redis conn
 redis.conn.maxTotal=100
 redis.conn.maxIdle=10
