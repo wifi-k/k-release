@@ -117,6 +117,12 @@
             <artifactId>tbcloud-node-job</artifactId>
             <classifier>plugin</classifier>
         </dependency>
+
+        <dependency>
+            <groupId>cn.treebear</groupId>
+            <artifactId>tbcloud-httpproxy-job</artifactId>
+            <classifier>plugin</classifier>
+        </dependency>
     </dependencies>
 
 

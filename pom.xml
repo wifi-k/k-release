@@ -192,6 +192,12 @@
                 <version>${tbcloud.version}</version>
                 <classifier>plugin</classifier>
             </dependency>
+            <dependency>
+                <groupId>cn.treebear</groupId>
+                <artifactId>tbcloud-httpproxy-job</artifactId>
+                <version>${tbcloud.version}</version>
+                <classifier>plugin</classifier>
+            </dependency>
 
             <dependency>
                 <groupId>cn.treebear</groupId>
