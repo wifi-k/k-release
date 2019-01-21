@@ -24,6 +24,10 @@ redis.node.database=0
 redis.common.ip=127.0.0.1
 redis.common.passwd=
 redis.common.database=0
+# redis httpproxy
+redis.httpproxy.ip=127.0.0.1
+redis.httpproxy.passwd=
+redis.httpproxy.database=0
 # redis conn
 redis.conn.maxTotal=100
 redis.conn.maxIdle=10
