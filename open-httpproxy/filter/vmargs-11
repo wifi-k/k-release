@@ -31,8 +31,8 @@
 #-XX:CompileThreshold=10000
 #-XX:+CICompilerCount=
 
--Xms${open.Httpproxy.vm.size}
--Xmx${open.Httpproxy.vm.size}
+-Xms${openHttpproxy.vm.size}
+-Xmx${openHttpproxy.vm.size}
 #-Xmn512M
 
 #-XX:PermSize=32M
