@@ -57,7 +57,7 @@ alidm.tbc.accessKeySecret=
 node.api.port=9019
 #node.api.auth.enabled=true
 node.api.ins.host=127.0.0.1:9019
-node.api.token.expired=48
+node.api.token.expired=86400
 # open httpproxy
 open.httpproxy.port=8108
 # email
