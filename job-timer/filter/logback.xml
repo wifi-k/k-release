@@ -17,7 +17,7 @@
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/jf-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
@@ -31,7 +31,7 @@
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/common-dao-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
@@ -45,7 +45,7 @@
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/user-dao-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
@@ -59,7 +59,7 @@
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/timer-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
@@ -73,7 +73,7 @@
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/node-dao-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
@@ -87,7 +87,7 @@
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/user-job-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
@@ -101,7 +101,7 @@
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/node-job-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
@@ -115,7 +115,7 @@
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/httpproxy-job-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
@@ -129,7 +129,7 @@
     <appender name="ROOT" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_HOME}/root-%d{yyyyMMdd}.log</fileNamePattern>
-            <maxHistory>10</maxHistory>
+            <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
