@@ -23,24 +23,22 @@
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
         </encoder>
     </appender>
-
     <logger name="jframe" additivity="false">
         <appender-ref ref="JFRAME"/>
     </logger>
 
-    <appender name="TBCLOUD_USER_DAO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="TBCLOUD_COMMON_DAO" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- <file>${LOG_HOME}/log-${byDay}.log</file> -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${LOG_HOME}/user-dao-%d{yyyyMMdd}.log</fileNamePattern>
+            <fileNamePattern>${LOG_HOME}/common-dao-%d{yyyyMMdd}.log</fileNamePattern>
             <maxHistory>3</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} ${HOSTNAME} %-4level [%thread] - %msg%n</pattern>
         </encoder>
     </appender>
-
-    <logger name="tbcloud.user.dao" additivity="false">
-        <appender-ref ref="TBCLOUD_USER_DAO"/>
+    <logger name="tbcloud.common.dao" additivity="false">
+        <appender-ref ref="TBCLOUD_COMMON_DAO"/>
     </logger>
 
     <appender name="TBCLOUD_NODE_DAO" class="ch.qos.logback.core.rolling.RollingFileAppender">
