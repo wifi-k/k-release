@@ -71,4 +71,6 @@ node.httpproxy.http.port=8109
 node.httpproxy.tcp.port=9109
 # kafka
 kafka.bootstrap.servers=localhost:9092
+# elastic
+es.http.host=127.0.0.1
 
