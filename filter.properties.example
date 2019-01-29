@@ -19,15 +19,15 @@ redis.user.database=0
 # redis node
 redis.node.ip=127.0.0.1
 redis.node.passwd=
-redis.node.database=0
+redis.node.database=1
 # redis common
 redis.common.ip=127.0.0.1
 redis.common.passwd=
-redis.common.database=0
+redis.common.database=2
 # redis httpproxy
 redis.httpproxy.ip=127.0.0.1
 redis.httpproxy.passwd=
-redis.httpproxy.database=0
+redis.httpproxy.database=3
 # redis conn
 redis.conn.maxTotal=100
 redis.conn.maxIdle=10
