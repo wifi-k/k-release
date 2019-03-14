@@ -87,5 +87,6 @@
         <mapper resource="tbcloud/node/model/mapper/ext/NodeInfoRtMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeInsMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeAppMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/NodeWifiMapper.xml"/>
     </mappers>
 </configuration>
