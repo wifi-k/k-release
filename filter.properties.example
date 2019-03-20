@@ -40,6 +40,8 @@ qiniu.imgcode.bucket=tbc-imgcode-test
 qiniu.imgcode.domain=test.qiniu.famwifi.com
 qiniu.developer.bucket=tbc-developer-test
 qiniu.developer.domain=test.developer.qiniu.famwifi.com
+qiniu.user.bucket=tbc-developer-test
+qiniu.user.domain=test.developer.qiniu.famwifi.com
 #
 debug.enabled=true
 env.name=dev
