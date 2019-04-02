@@ -94,5 +94,6 @@
         <mapper resource="tbcloud/node/model/mapper/NodeWifiTimerMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeDeviceMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeDeviceAllowMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/MacSpaceMapper.xml"/>
     </mappers>
 </configuration>
