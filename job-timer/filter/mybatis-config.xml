@@ -95,6 +95,8 @@
         <mapper resource="tbcloud/node/model/mapper/NodeDeviceMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/NodeDeviceAllowMapper.xml"/>
         <mapper resource="tbcloud/node/model/mapper/MacSpaceMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/NodeDeviceWeekMapper.xml"/>
+        <mapper resource="tbcloud/node/model/mapper/NodeDeviceDayMapper.xml"/>
 
         <mapper resource="tbcloud/common/model/mapper/IpInfoMapper.xml"/>
         <mapper resource="tbcloud/common/model/mapper/IspMapper.xml"/>
